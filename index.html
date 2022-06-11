@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 
-  <title>Descubra seu destino</title>
-</head>
-<body>
+    <script src="./script.js"></script>
+    <title>Descubra seu destino</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./assets/cristal.svg" alt="Uma imagem de uma bola de cristal" />
+      <h1>Vou revelar o seu destino!</h1>
+      <p>Clique em fazer pergunta para que o seu destino seja revelado.</p>
+      <input id="pergunta" type="text" placeholder="Digite sua pergunta" />
+      <button id="buttonPerguntar" onclick="gerarRespostas()">
+        Fazer pergunta
+      </button>
 
-  <div class="container">
-    <img src="./assets/cristal.svg" alt="Uma imagem de uma bola de cristal">
-    <h1>Vou revelar o seu destino! </h1>
-    <p>Clique em fazer pergunta para que o seu destino seja revelado.</p>
-    <input id="pergunta" type="text" placeholder="Digite sua pergunta">
-    <button id="buttonPerguntar" onclick="gerarRespostas()" >Fazer pergunta</button>
-
-    <h3 id="resposta"></h3>
-  </div>
-
-  <script src="./script.js"></script>
-</body>
+      <h3 id="resposta"></h3>
+    </div>
+  </body>
 </html>
