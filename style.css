@@ -64,3 +64,15 @@ button{
 button:hover{
   filter: brightness(0.9);
 }
+
+#resposta{
+  margin-top: 3.0rem;
+  transition: opacity 1s;
+}
+
+#reposta div{
+  font-size: 1.6rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}

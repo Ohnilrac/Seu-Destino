@@ -15,9 +15,12 @@
     <img src="./assets/cristal.svg" alt="Uma imagem de uma bola de cristal">
     <h1>Vou revelar o seu destino! </h1>
     <p>Clique em fazer pergunta para que o seu destino seja revelado.</p>
-    <input type="text" placeholder="Digite sua pergunta">
-    <button>Fazer pergunta</button>
+    <input id="pergunta" type="text" placeholder="Digite sua pergunta">
+    <button id="buttonPerguntar" onclick="gerarRespostas()" >Fazer pergunta</button>
+
+    <h3 id="resposta"></h3>
   </div>
-  
+
+  <script src="./script.js"></script>
 </body>
 </html>
